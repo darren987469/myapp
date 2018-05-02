@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rspec"
+      },
+      "addons": [
+        "heorku-postgresql"
+      ]
+    }
+  }
+}
