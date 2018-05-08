@@ -1,0 +1,60 @@
+<div class="page-content">
+  <dic class="page-header">
+  </div>
+  <div class="container-fluid">
+    <div class="row" style="margin: 0">
+      <form class="form-inline">
+        <div class="form-group">
+          <label>*Name</label>
+          <input name="product[name]" type="number" step="0.01"></input>
+        </div>
+        <div class="form-group">
+          <label>*Price</label>
+          <input name="product[price]" type="number" step="0.01"></input>
+        </div>
+        <div class="form-group">
+          <label>Market Price</label>
+          <input name="product[market_price]" type="text"></input>
+        </div>
+        <button class="btn btn-sm btn-primary">Add Product</button>
+      </form>
+    </div>
+
+    <div style="height: 20px"></div>
+
+    <div class="row">
+      <div class="col-xs-6">
+        <label>
+          Display
+          <select value="1">
+            <option value="1">1</option>
+          </select>
+          Records
+        </label>
+      </div>
+      <div class="col-xs-6 pull-right">
+        <label>
+          Search: <input type="search" class="input-sm">
+        </label>
+      </div>
+    </div>
+    <table class="table table-striped table-bordered table-hover">
+      <thead>
+        <tr>
+          <td><input type="checkbox"></td>
+          <td>Name</td>
+          <td>Price</td>
+          <td>Market Price</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox"></td>
+          <td>Product1</td>
+          <td>100</td>
+          <td>105</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
